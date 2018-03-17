@@ -5,7 +5,7 @@ def line(katz_deli)
 
     katz_deli.each.with_index(1){|name, number| list << "#{number}." + " #{name}"}
 
-    puts "The line is currenlty: #{list.join(" ")}"
+    puts "The line is currently: #{list.join(" ")}"
   else
   puts "The line is currently empty."
   end
