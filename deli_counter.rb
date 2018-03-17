@@ -2,10 +2,8 @@
 def line(katz_deli)
   if katz_deli.length > 0
     list = []
-    number = 0
-    while number <= katz_deli.length
-    number += 1
-    katz_deli.each{|name| list << number.to_s + name}
+    
+    katz_deli.each{|name| list << katz_deli.index + name}
   end
     puts "The line is currenlty: #{list.join(" ")}"
   else
