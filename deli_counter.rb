@@ -10,8 +10,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,name)
-  katz_deli = []
-  katz_deli << name
+  line = []
+  line << name
   puts "Welcome, #{name}. You are number #{line.find_index(name)+1} in line."
-  katz_deli
+  line
 end
