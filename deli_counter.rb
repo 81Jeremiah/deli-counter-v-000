@@ -6,7 +6,7 @@ def line(katz_deli)
     while number <= katz_deli.length
     number += 1
     katz_deli.each{|name| list << number + name}
-    end
+    
     puts "The line is currenlty: #{list.join}
   else
   puts "The line is currently empty."
