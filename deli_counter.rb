@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     list = []
 
-    katz_deli.each{|name| list << katz_deli.index + name}
+    katz_deli.each.with_index(0){|name, number| list << "#{number}. + #{name}"}
   
     puts "The line is currenlty: #{list.join(" ")}"
   else
