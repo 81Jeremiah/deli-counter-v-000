@@ -5,7 +5,7 @@ def line(katz_deli)
     number = 0
     while number <= katz_deli.length
     number += 1
-    katz_deli.each{|name| list << number + name}
+    katz_deli.each{|name| list << number_to.s + name}
   end
     puts "The line is currenlty: #{list.join(" ")}"
   else
